@@ -13,6 +13,7 @@
 - set_fact:
      postgres_owner: postgres
      postgres_group: postgres
+     db_name: mycloud
 
 - name: Create DB Directory
   file:
